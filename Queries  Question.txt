@@ -1,0 +1,62 @@
+SECTION 1: BASIC EXPLORATION
+
+Query 1: Total transactions and fraud overview
+Query 2: First look at data
+Query 3: Total transaction amount
+Query 4: Transaction count by gender
+Query 5: Top 10 merchants by transaction count
+Query 6: Transaction count by category
+Query 7: Top 10 states by transaction volume
+Query 8: Daily transaction count
+
+
+SECTION 2: INTERMEDIATE ANALYSIS
+
+ Query 9: Fraud rate by category
+Query 10: High value fraud transactions (above $500)
+Query 11: Customer age calculation and fraud by age group
+Query 12: Hourly fraud pattern
+Query 13: Monthly fraud trend
+Query 14: Top 10 fraud merchants
+Query 15: Fraud by day of week
+Query 16: High risk cities
+Query 17: Transaction amount distribution
+Query 18: Top 10 jobs with most fraud
+
+
+SECTION 3: ADVANCED WINDOW FUNCTIONS
+
+Query 19: Running total of fraud amount per category
+Query 20: Rank customers by total spend
+Query 21: LAG function — time between transactions per customer
+Query 22: Detect rapid successive transactions (possible fraud)
+Query 23: LEAD function — next transaction amount
+Query 24: Percentile ranking of transaction amounts
+Query 25: Moving average of daily fraud amount
+Query 26: ROW_NUMBER to get latest transaction per customer
+Query 27: DENSE_RANK merchants by fraud amount per state
+
+
+SECTION 4: CTEs AND SUBQUERIES
+
+Query 28: Multi-level CTE — fraud summary
+Query 29: Customers with multiple fraud transactions
+Query 30: Above average fraud amount transactions
+Query 31: Correlated subquery — customers spending above their avg
+Query 32: Recursive CTE — fraud chain detection
+Query 33: EXISTS — customers who had both fraud and normal transactions
+Query 34: NOT EXISTS — customers with zero fraud
+
+
+SECTION 5: ADVANCED FRAUD DETECTION LOGIC
+
+Query 35: Fraud velocity check — multiple transactions same hour
+Query 36: Geographic anomaly — distance between customer and merchant
+Query 37: Fraud score card per customer
+Query 38: Unusual spending pattern — 3x above personal average
+Query 39: Weekend vs Weekday fraud comparison
+Query 40: Night time fraud analysis (12AM - 6AM)
+Query 41: First and last transaction analysis per customer
+Query 42: Final Fraud Summary Report
+Query 43: Export fraud transactions to CSV
+Query 44: Export fraud summary report
